@@ -1,0 +1,133 @@
+/* Navbar düzenlemeleri */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white !important;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+}
+
+.navbar .logo {
+  margin-left: 1.5rem;
+}
+
+.searche {
+  margin-right: 1.5rem;
+  height: 34px;
+  max-width: 280px;
+}
+
+.searche::placeholder {
+  font-size: 14px;
+  padding-left: 1rem;
+  content: "Arama Yap";
+}
+
+.menutext {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.nav-item i {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Ben menüsü düzenlemesi */
+.nav-item .profile-photo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+/* İçerik düzenlemeleri */
+.container {
+  margin-top: 76px;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Grid yapısı */
+.col-2 {
+  width: 16.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+/* Profil fotoğrafı */
+.card-header img {
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Sayfa bildirimleri */
+.page-notifications {
+  float: right;
+}
+
+/* Sticky sidebar */
+.sticky-sidebar {
+  position: sticky;
+  top: 4rem;
+  overflow-y: visible;
+}
+
+/* Post butonları */
+.mediatext {
+  color: #5f5f5f;
+}
+
+button.ref {
+  color: #5f5f5f;
+  background: transparent;
+  border: none;
+  padding: 1rem;
+}
+
+button.ref:hover {
+  background-color: rgba(0,0,0,0.08);
+  border-radius: 4px;
+}
+
+/* Sağ panel */
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: #5f5f5f;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.link:hover {
+  color: #0a66c2;
+  text-decoration: underline;
+}
+
+/* Mesajlaşma */
+.messaging {
+  position: fixed;
+  bottom: 0;
+  right: 2rem;
+  width: 300px;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 5px 5px 0 0;
+}
